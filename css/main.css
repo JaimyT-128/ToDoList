@@ -1,0 +1,50 @@
+body{
+  text-align: center;
+}
+*{
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.list_input{
+  position: relative;
+  border: 3px solid black;
+  width: 50%;
+  height: auto;
+  left: 25%;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.list_input form{
+  height: 100%;
+}
+.list_input .inputText{
+  width: 80%;
+  height: 40px;
+}
+.list_input .inputButton{
+  width: 18%;
+  height: 46px;
+}
+.list_body{
+  position: relative;
+  border: 3px solid black;
+  width: 50%;
+  height: auto;
+  left: 25%;
+  margin: 5px;
+  padding: 10px;
+}
+.task{
+  text-align: left;
+  padding: 7.5px;
+  border-bottom: 3px solid black;
+}
+.checkmark{
+  position: absolute;
+  text-align: right;
+  right: 15px;
+  color: green;
+  text-decoration: none;
+}
