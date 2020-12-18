@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>To Do List</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="list">
@@ -13,17 +14,11 @@
           <input type="button" name="enter" class="inputButton" value="Add to list">
         </form>
       </div>
-      <div class="list_body">
-        <div class="task" id="task_0">
-          <span>Do The Dishes</span> <a href="" class=checkmark title="Click to finish task!">&#10003;</a>
-        </div>
-        <div class="task" id="task_1">
-          <span>Work Out</span> <a href="" class=checkmark title="Click to finish task!">&#10003;</a>
-        </div>
-        <div class="task" id="task_2">
-          <span>Take A Shower</span> <a href="" class=checkmark title="Click to finish task!">&#10003;</a>
-        </div>
+      <div class="list_body" id="list_body">
       </div>
     </div>
+    <script src="scripts/submit.js" charset="utf-8"></script>
+    <script src="scripts/checkmark.js" charset="utf-8"></script>
+
   </body>
 </html>

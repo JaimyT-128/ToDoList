@@ -47,4 +47,5 @@ body{
   right: 15px;
   color: green;
   text-decoration: none;
+  cursor: pointer;
 }
