@@ -1,9 +1,11 @@
 body{
   text-align: center;
+  background: #2A2B2A;
 }
 *{
   font-family: monospace;
   font-size: 24px;
+  color: #7F7F7F;
 }
 
 .list_input{
@@ -15,6 +17,7 @@ body{
   margin: 5px;
   padding: 10px;
   text-align: center;
+  background: #2A2B2A;
 }
 .list_input form{
   height: 100%;
@@ -22,30 +25,47 @@ body{
 .list_input .inputText{
   width: 80%;
   height: 40px;
+  background: #2A2B2A;
+  border: 3px solid black;;
+  outline: none;
+  padding-left: 10px;
 }
 .list_input .inputButton{
-  width: 18%;
+  width: auto;
   height: 46px;
+  background: none;
+  outline: none;
+  border: 3px solid black;
 }
 .list_body{
   position: relative;
   border: 3px solid black;
   width: 50%;
+  min-height: 80vh;
   height: auto;
   left: 25%;
   margin: 5px;
   padding: 10px;
+  background: #2A2B2A;
 }
 .task{
   text-align: left;
   padding: 7.5px;
   border-bottom: 3px solid black;
 }
-.checkmark{
+.fa-check{
   position: absolute;
   text-align: right;
   right: 15px;
-  color: green;
+  color: #7F7F7F;
+  text-decoration: none;
+  cursor: pointer;
+}
+.fa-pencil{
+  position: absolute;
+  text-align: right;
+  right: 60px;
+  color: #7F7F7F;
   text-decoration: none;
   cursor: pointer;
 }
